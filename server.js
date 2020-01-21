@@ -13,6 +13,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Register our routes in api
+app.get('/', function(req, res) {
+  res.redirect('https://igorila.herokuapp.com');
+});
 app.use('/api', indexRoute);
 
 // Start our server
