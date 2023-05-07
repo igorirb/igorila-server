@@ -24,7 +24,7 @@
     "express-pino-logger": "^4.0.0",
     "heroku": "^7.36.3",
     "jquery": "^3.4.1",
-    "mocha": "^7.0.0",
+    "mocha": "^10.2.0",
     "moment": "^2.24.0",
     "mysql": "^2.17.1",
     "node-sass": "^4.13.1",
